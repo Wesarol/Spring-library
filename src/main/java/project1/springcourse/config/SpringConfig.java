@@ -62,7 +62,7 @@ private final Environment environment;
         //Создание бина
         DriverManagerDataSource dataSource=new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
-        dataSource.setUrl("jdbc:postgresql://localhost:5433/project1");
+        dataSource.setUrl("jdbc:postgresql://localhost:5433/danil_db");
         dataSource.setUsername("postgres");
         dataSource.setPassword("danil");
         return dataSource;

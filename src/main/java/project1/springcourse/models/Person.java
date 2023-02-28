@@ -14,7 +14,7 @@ public class Person {
             message = "Должен быть формат \"Фамилия Имя Отчество\" на русском языке")
     private String name;
 
-    @Min(value = 1900, message = "Год рождения должен быть больше 1900")
+    @Min(value = 1000, message = "Год рождения должен быть больше 1000")
     private int year;
 
     public Person(int id, String name, int year) {
